@@ -22,7 +22,8 @@ concurrency:
 
 defaults:
   run:
-    working-directory: vue-deploy-test
+    shell: bash
+    working-directory: ./vue-deploy-test
 
 jobs:
   # デプロイするだけなので、単一のデプロイジョブ
